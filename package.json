@@ -1,0 +1,12 @@
+{
+  "name": "coolify-test-app",
+  "version": "1.0.0",
+  "description": "Minimal Node.js Express application for testing Coolify deployment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
