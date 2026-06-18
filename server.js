@@ -70,13 +70,13 @@ app.get('/', (req, res) => {
         
         <div class="info-grid">
           <div class="label">Server Time:</div>
-          <div>\${serverTime}</div>
+          <div>${serverTime}</div>
           
           <div class="label">Hostname:</div>
-          <div>\${hostname}</div>
+          <div>${hostname}</div>
           
           <div class="label">Environment:</div>
-          <div>\${environment}</div>
+          <div>${environment}</div>
         </div>
 
         <div class="endpoints">
@@ -128,6 +128,6 @@ app.get('/info', (req, res) => {
 
 // Start listening for incoming requests
 app.listen(PORT, () => {
-  console.log(\`🚀 Server is running on port \${PORT}\`);
-  console.log(\`Environment: \${process.env.NODE_ENV || 'development'}\`);
+  console.log(`🚀 Server is running on port ${PORT}`);
+  console.log(`Environment: ${process.env.NODE_ENV || 'development'}`);
 });
